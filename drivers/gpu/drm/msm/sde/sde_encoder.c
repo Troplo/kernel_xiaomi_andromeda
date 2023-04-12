@@ -1910,8 +1910,6 @@ static int _sde_encoder_switch_to_watchdog_vsync(struct drm_encoder *drm_enc)
 	return 0;
 }
 
-extern unsigned int framerate_override = 4;
-extern int skip_reinit;
 static int _sde_encoder_update_rsc_client(
 		struct drm_encoder *drm_enc,
 		struct sde_encoder_rsc_config *config, bool enable)

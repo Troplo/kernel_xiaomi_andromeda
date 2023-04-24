@@ -973,7 +973,7 @@ error:
 	return rc;
 }
 
-unsigned int framerate_override = 5;
+unsigned int framerate_override = 4;
 module_param(framerate_override, uint, 0444);
 
 static int dsi_panel_parse_timing(struct dsi_mode_info *mode,
